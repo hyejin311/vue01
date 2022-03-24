@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sec08</title>
+    <script defer src="https://unpkg.com/vue@next"></script>
+    <script defer src="./js/sec08.js"></script>
+</head>
+
+<body>
+<div id="app">
+<!-- <h1 v-if="sample">true값 입니다.</h1> -->
+<h1 v-if="num < 0">true 값 입니다.</h1>
+<h1 v-else-if="num > 50">num 값이 참입니다.</h1>
+<h1 v-else-if="title === 'num'">title 값이 참입니다.</h1>
+<h1 v-else>false 입니다.</h1>
+</div>
+</body>
+</html>
